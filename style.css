@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("Fundo.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    background: #dddddd;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1.5px solid#000000;
+    text-align: center;
+}
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 101%;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #218838;
+    /*Depois de muitos trabalho agora sei bem como se usa um hover*/
+}
+#mensagem {
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: bold;
+}

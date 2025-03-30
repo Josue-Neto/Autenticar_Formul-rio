@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js" ></script>
+    <link rel="stylesheet" href="style.css" src="style.css">
+    <title>Autenticar Formulário</title>
+</head>
+<body>
+    <div class="container">
+    <form id="form-autentica">
+        <label for="usuario"><b>Usuário</b></label>
+        <input type="text" name="user" id="usuario" placeholder="Insira seu usuário"> <!-- required = campo de preenchimento obrigatorio-->
+        <label for="senha"><b>Senha</b></label>
+        <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required >
+ 
+        <!-- Vamos inserir um botão que ira chamar nossa funçao no js. Vamos adicionar um evento de clique para funcionar quando for clicado-->
+ 
+        <button type="button" onclick="autenticar()">Entrar</button>
+        <!-- Quando a funçao autenticar() for acionada e executa, devera aparecer uma mensagem no HTMl, para dizae e o usuario esata autenticado ou nao. Para isso vamos criar uma tag de paragrafocom id="mensagem" -->
+    </div>
+    </form>
+    <div id="mensagem"></div>
+</body>
+</html>
