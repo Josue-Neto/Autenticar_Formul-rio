@@ -2,7 +2,7 @@ function autenticar() {
     const login = document.getElementById('usuario').value;
     const senha = document.getElementById('senha').value;
 
-    if (login === "usuario" && senha === "1234AB") {
+    if (login === "Jo_Lindo13_<3" && senha === "LongLive") {
         document.getElementById('mensagem').innerHTML = "Usuário autenticado com sucesso!";
         document.getElementById('mensagem').style.color = "green";
     } else {
